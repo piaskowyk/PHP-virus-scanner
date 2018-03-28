@@ -1,0 +1,12 @@
+{
+	"path": "includes",
+	"outPath": "scan.txt",
+	"search": [
+		"eval",
+		"base64",
+		"GLOBALS",
+		"@include",
+		"\\x",
+	],
+	"showAll":"0"
+}

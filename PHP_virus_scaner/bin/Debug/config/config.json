@@ -1,0 +1,31 @@
+{
+	"path": "includes",
+	"outPath": "scan.txt",
+	"search": [
+		"eval",
+		"base64",
+		"GLOBALS",
+		"SERVER",
+		"SESSION",
+		"REQUEST",
+		"@include",
+		"\\x",
+		"str_rot13",
+		"gzuncompress",
+		"exec",
+		"system",
+		"assert",
+		"stripslashes",
+		"preg_replace",
+		"move_uploaded_file"
+	],
+	"ignoreExt": [
+		".zip"
+	],
+	"ignoreDir": [
+		"ignorit"
+	],
+	"showAll":"0",
+	"_comment": "trzeba urzywac \\ jako slash w sciezkach do pliku bo to windows",
+	"_cotact": "krzychu2956@gmail.com"
+}
